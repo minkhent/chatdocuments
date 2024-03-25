@@ -1,11 +1,11 @@
 # System improvements
 This is practical improvements for RAG system in both latency and accuracy.
 
-1. ## Using semantic cache 
+1. ## Using semantic cache
     Latency and Cost are significant hurdles for developers building on top of Language Models. High latency can degrade the user experience, and increased costs can impact scalability.Caching allows you to efficiently reuse previously retrieved or computed data.
     - [GPTCache](https://github.com/zilliztech/GPTCache)
     - Redis
-    - Mongo 
+    - Mongo
 
 
 2. ## Using semantic chunking
@@ -13,7 +13,7 @@ This is practical improvements for RAG system in both latency and accuracy.
     - [link](https://www.youtube.com/watch?v=8OJC21T2SL4)
     - [langchain docs](https://python.langchain.com/docs/modules/data_connection/document_transformers/semantic-chunker)
 
-3. ## Using different LLM backend 
+3. ## Using different LLM backend
     - [tensorRT_LLM](https://github.com/triton-inference-server/tensorrtllm_backend)
     - [vllm](https://github.com/vllm-project/vllm)
     - [hg-inference engine](https://github.com/huggingface/text-generation-inference)https://github.com/deepset-ai/haystack

@@ -10,21 +10,21 @@ The chat system use following models to build RAG system.The RAG system use Embe
     - 32k context window (vs 8k context in v0.1)
     - Rope-theta = 1e6
     - No Sliding-Window Attention
-    
+
 
     For full details of this model please read original [paper](https://arxiv.org/abs/2310.06825) and [release blog post](https://mistral.ai/news/la-plateforme/).
 
-    
+
 2. Embedding model ( BAAI/bge-small-en-v1.5 )
 
-    BGE embedding is a general Embedding Model.Pre-train the models using [retromae](https://github.com/staoxiao/RetroMAE) and train them on large-scale pair data using contrastive learning. 
+    BGE embedding is a general Embedding Model.Pre-train the models using [retromae](https://github.com/staoxiao/RetroMAE) and train them on large-scale pair data using contrastive learning.
     - bge is short for BAAI general embedding.
     - [Detail of bge * models](https://github.com/FlagOpen/FlagEmbedding)
 
 
 ## More about format
 
-1. GGUF format 
+1. GGUF format
 
     In this RAG system I use GGUF models for computational efficiency.GGUF is a file format for storing models for inference with GGML and executors based on GGML. GGUF is a binary format that is designed for fast loading and saving of models, and for ease of reading. Models are traditionally developed using PyTorch or another framework, and then converted to GGUF for use in GGML.
 

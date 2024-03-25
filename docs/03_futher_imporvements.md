@@ -35,9 +35,7 @@ Generation quality presents hallucination challenge, where the model generates a
     5. Noise Robustness ( the model’s capability to man-age noise documents that are question-related)
     6. Counterfactual Robustness (tests the model’s ability to recognize known inaccuracies within documents)
 
-2. ## Evaluation Tools 
+2. ## Evaluation Tools
     1. [ARES](https://github.com/stanford-futuredata/ARES)
     2. [TruLens](https://github.com/truera/trulens)
     3. [RAGAS] (https://github.com/explodinggradients/ragas)
-
-
