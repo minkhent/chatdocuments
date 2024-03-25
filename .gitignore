@@ -14,3 +14,6 @@ pipeline/__pycache__/
 QA.txt
 commands.txt
 test.py
+
+!vectorestore/.gitkeep
+!model/.gitkeep
