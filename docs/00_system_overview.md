@@ -1,5 +1,6 @@
 # System
-The chat system use following tech-stack.
+The chat system allows the user to upload documents (pdf, text , docx and csv).After processing done the user can chat with the chatbot.
+
 
 ### Tech-stack
 1. ML Modeling -

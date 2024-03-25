@@ -21,6 +21,11 @@ The chat system use following models to build RAG system.The RAG system use Embe
     - bge is short for BAAI general embedding.
     - [Detail of bge * models](https://github.com/FlagOpen/FlagEmbedding)
 
+## Side note
+
+This side note depend on my personal experience and I only run in CPU (GGUF version).The results may be varies on other hardware(CPU/GPU),LLM backend(vLLM/tensorRT_LLM),precison(fp16,fp32,int8) etc. So use this side note as reference.
+
+>:bulb: **_NOTE:_** This is side note for LLM choosing.Other light weight model like microsoft(phi2) is small in term of parameters and in benchmark the model pass in other models but not good in generation.
 
 ## More about format
 
@@ -36,10 +41,3 @@ The chat system use following models to build RAG system.The RAG system use Embe
     2. GGUF File Structure
     ![GGUF_format](assets/GGUF_format.png)
      IMG Source : [GGUF format](https://private-user-images.githubusercontent.com/1991296/313174776-c3623641-3a1d-408e-bfaf-1b7c4e16aa63.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEzNzU1ODcsIm5iZiI6MTcxMTM3NTI4NywicGF0aCI6Ii8xOTkxMjk2LzMxMzE3NDc3Ni1jMzYyMzY0MS0zYTFkLTQwOGUtYmZhZi0xYjdjNGUxNmFhNjMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDMyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAzMjVUMTQwMTI3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzA3YmVlYzI4M2M5YWVmYWFmY2RhZjMzM2YwMGY1YTM4YWRlNjdiZTQ0YzdhMzBjMGM0YTdiYjFiMzczYjhkNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.dtJRk4xTKVvByiAoYQHIzj9foUl0a5m8n9Cqe7JH2ks)
-
-
-## Side note
-
-This side note depend on my personal experience and I only run in CPU (GGUF version).The results may be varies on other hardware(CPU/GPU),LLM backend(vLLM/tensorRT_LLM),precison(fp16,fp32,int8) etc. So use this side note as reference.
-
->:bulb: **_NOTE:_** This is side note form LLM choosing.Other light weight model like microsoft(phi2) is small in term of parameters and in benchmark the model pass in other models but not good in generation.

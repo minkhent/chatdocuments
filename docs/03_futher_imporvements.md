@@ -38,4 +38,4 @@ Generation quality presents hallucination challenge, where the model generates a
 2. ## Evaluation Tools
     1. [ARES](https://github.com/stanford-futuredata/ARES)
     2. [TruLens](https://github.com/truera/trulens)
-    3. [RAGAS] (https://github.com/explodinggradients/ragas)
+    3. [RAGAS](https://github.com/explodinggradients/ragas)

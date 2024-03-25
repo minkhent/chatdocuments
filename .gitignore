@@ -16,3 +16,6 @@ test.py
 !model/.gitkeep
 
 model/*.gguf
+vectorestore/*/*.bin
+vectorestore/*/*.pickle
+vectorestore/chroma.sqlite3

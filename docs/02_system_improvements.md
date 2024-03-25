@@ -39,3 +39,8 @@ This is practical improvements for RAG system in both latency and accuracy.
     - [ReactAgent](https://towardsdatascience.com/using-langchain-react-agents-for-answering-multi-hop-questions-in-rag-systems-893208c1847e)
 9. ## Using Knowledge graph
     - [reference](https://neo4j.com/developer-blog/graph-llm-rag-application-pdf-documents/)
+10. ## Advanced LLM tools
+    - [MemGPT](https://github.com/cpacker/MemGPT)
+    - [Chat2DB](https://github.com/chat2db/Chat2DB)
+    - [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)
+    - [llm-tools](https://github.com/underlines/awesome-ml/blob/master/llm-tools.md)
