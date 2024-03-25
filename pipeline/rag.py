@@ -1,5 +1,6 @@
 import pathlib
 from langchain_community.document_loaders import TextLoader, PyPDFLoader, CSVLoader
+from langchain_community.document_loaders import Docx2txtLoader
 from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import TokenTextSplitter
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
@@ -26,6 +27,8 @@ class RAGPipeline:
             loader = PyPDFLoader(path)
         elif file_type == ".csv":
             loader = CSVLoader(path)
+        elif file_type == ".docx":
+            loader = Docx2txtLoader(path)
 
         pages = loader.load_and_split()
         return pages
