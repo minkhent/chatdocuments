@@ -50,6 +50,10 @@ chainlit run app.py
 ```
 >:bulb: **_NOTE:_** If you want to use other LLM or custom GGUF models , take a look at .env file and edit model name.
 
+## Demo
+
+https://github.com/minkhent/chatdocuments/assets/54467080/0aba2d3b-2e64-45a6-8e7b-a9acfe02c453
+
 
 ## Documentation
 More about RAG system , models and possible improvements can be found in
