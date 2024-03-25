@@ -1,11 +1,11 @@
 # Futher Improvements
-This is a side note to improve RAG systems.Naive RAG faces significant challenges in two key areas: “Retrieval,” and  “Generation”.
+This is a theoritical side note to improve RAG systems.Naive RAG faces significant challenges in two key areas: “Retrieval,” and  “Generation”.
 
 
 Retrieval quality poses diverse challenges, including low precision, leading to misaligned retrieved chunks and potential issues like hallucination.
 ## Retrieval Improvements
 
-- Chunk optimization
+- Chunk optimization( semantic chunking )
 - Fine-tuning Embedding Models
 
 1. ###### Aligning Queries and Documents
