@@ -5,8 +5,8 @@ __pycache__/
 .mypy_cache/
 .files/
 .chainlit/
-model/*
-vectorestore/*
+model/
+vectorestore/
 pipeline/__pycache__/
 
 *.ipynb_checkpoints
