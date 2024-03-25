@@ -5,8 +5,6 @@ __pycache__/
 .mypy_cache/
 .files/
 .chainlit/
-model/
-vectorestore/
 pipeline/__pycache__/
 
 *.ipynb_checkpoints
@@ -17,3 +15,5 @@ test.py
 
 !vectorestore/.gitkeep
 !model/.gitkeep
+
+model/*.gguf
